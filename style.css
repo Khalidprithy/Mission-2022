@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F6F6;
+}
+
+.first-banner {
+    width: 500px;
+    display: flex;
+    margin: 100px 100px;
+}
+
+.happy-sec1 h1 {
+    font-size: 35px;
+    color: black;
+    padding-left: 5px;
+    border-left: 4px solid #EC7063;
+}
+
+.happy-color {
+    color: #EB984E;
+}
+
+.happy-sec1 p {
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #EC7063;
+    font-size: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.happy-sec2 img {
+    width: 110%;
+    margin-left: 100px;
+}
+
+#invest-heading {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.investment-sec {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 80px;
+}
+
+.first-invest {
+    background-color: #D1F2EB;
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.first-invest img {
+    width: 100px;
+    padding: 10px 0;
+}
+
+.second-invest {
+    background-color: #E5E8E8;
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.second-invest img {
+    width: 100px;
+    padding: 10px 0;
+}
+
+.third-invest {
+    background-color: #FDEBD0;
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.third-invest img {
+    width: 100px;
+    padding: 10px 0;
+}
+
+.investment-sec h3 {
+    text-align: left;
+    font-weight: 600;
+}
+
+.investment-sec p {
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+.exercise-sec {
+    display: flex;
+    margin: 100px 100px;
+}
+
+.workout-sec1 img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.workout-sec2 {
+    padding-left: 40px;
+}
+
+.workout-sec2 h1 {
+    font-weight: 1000;
+}
+
+.workout-sec2 p {
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+.travel-sec {
+    display: flex;
+    margin: 100px 100px;
+    padding-right: 20px;
+}
+
+.travel-sec h1 {
+    font-weight: 900;
+}
+
+.travel-sec p {
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+.travel-sec2 img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+form {
+    display: inline;
+    text-align: center;
+}
+
+form li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+footer {
+    color: white;
+    height: 100px;
+    background-color: #17202A;
+    text-align: center;
+}
+
+
+footer h3 {
+    font-family: 'Dancing Script', cursive;
+    padding: 20px;
+}
+
+footer p {
+    text-decoration: none;
+    font-size: 8px;
+}
