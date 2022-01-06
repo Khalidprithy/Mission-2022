@@ -20,6 +20,7 @@ body {
     color: black;
     padding-left: 5px;
     border-left: 4px solid #EC7063;
+    border-image-slice: 5px;
 }
 
 .happy-color {
@@ -130,17 +131,17 @@ body {
     padding: 10px 0;
 }
 
-.travel-sec {
+.travel-sec1 {
     display: flex;
     margin: 100px 100px;
     padding-right: 20px;
 }
 
-.travel-sec h1 {
+.travel-sec1 h1 {
     font-weight: 900;
 }
 
-.travel-sec p {
+.travel-sec1 p {
     font-size: 10px;
     padding: 10px 0;
 }
@@ -151,14 +152,49 @@ body {
     box-shadow: 10px 10px 8px #888888;
 }
 
-form {
-    display: inline;
+.contact-page {
+    margin-left: 100px;
     text-align: center;
+    width: 500px;
+    background-color: #D1F2EB;
+    position: relative;
+    border-radius: 10px;
 }
 
-form li {
-    list-style: none;
-    padding-left: 20px;
+.contact-page h4 {
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+form {
+    margin: 30px;
+}
+
+.contact-input {
+    background: #D1F2EB;
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+
+.message-input {
+    height: 100px;
+    padding-top: 10px;
+}
+
+.send-button {
+    border-radius: 10px;
+    color: white;
+    background-color: #EC7063;
+    margin: 15px;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+
 }
 
 footer {
